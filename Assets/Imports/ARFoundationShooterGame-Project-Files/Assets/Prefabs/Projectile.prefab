@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 615932854143559930}
   - component: {fileID: 615932854143559931}
   - component: {fileID: 8552886031606934455}
-  - component: {fileID: 4768049167742613536}
+  - component: {fileID: 491936501806997386}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -57,6 +57,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,6 +83,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &615932854143559931
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -110,7 +113,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4768049167742613536
+--- !u!114 &491936501806997386
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,6 +122,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 615932854143559928}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d77ca85112bdd2e48b12b6492de5f156, type: 3}
+  m_Script: {fileID: 11500000, guid: d0053ca1912379a46ac34c464bb868f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
